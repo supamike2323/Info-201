@@ -2,6 +2,3 @@
 **Bold Text**
 _Italized text_
 'Code'
-'''
-asdas
-'''
