@@ -1,0 +1,28 @@
+# Exploratory-Data-Analysis
+
+Exploratory Data Analysis for INFO 201, Spring 2022
+
+## Introduction
+
+We are interested in this field because we share a common interest, which is sports. Some of us like basketball, and some of us like volleyball, so we just flipped a coin to decide which sport data set should we do, and the basketball side won. We think that doing an data analysis on the 2021-2022 season NBA data of players would be interesting because there is a playoff going on in NBA, and having the data for the players in different teams can help us understand who will eventually win the championship for this year, and also a deeper understanding of the data of NBA. We have also found similar project regarding to this data set, including but not limited to: "Using Machine Learning to Profile 2020 NBA Draft Prospects", "DATA-DRIVEN APPROACHES TO NBA TEAM EVALUATION AND BUILDING", and "Model that can predict whether a basketball shot attempt will be a miss." By doing this analysis, we aim for a deeper understanding of using R and hopefully we can answer these 3 questions below:
+
+1.  Who is the player that has the most points per game throughout one season?
+
+2.  Who is the oldest player in this season?
+
+3.  Which player has the most points from shooting threes per game throughout one season?
+
+## Summary information
+
+By doing analysis of the NBA 2021-2022 player data set, we can successfully answer the 3 questions above. The code for the summary information is located in the "Summary_Information.R." The player that has the most points throughout one season per game is Bradley Beal, with 32.8 points per game. The oldest player is Andre Iguodala, with the age of 37. The player that has the most points from shooting three point shots is Stephen Curry, with average 5 three-point-field-goal, meaning that he gets 15 points every game by shooting three's, which is quite incredible.
+
+![](Position_vs_Point_chart.png)
+
+![](Age_points_chart.png)
+
+![](Ranking_of_points_warriors_chart.png)
+
+
+```{r}
+source("warriors.r")
+```
